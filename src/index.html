@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,400italic,500italic,500,700,700italic&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700,700italic&amp;subset=latin,cyrillic,cyrillic-ext" rel="stylesheet" type="text/css">
   <link href="css/reset.css" rel="stylesheet" type="text/css">
-  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   <nav class="side-nav">
@@ -20,7 +20,7 @@
     </div>
     <ul class="primary">
       <li class="label">Ощадбанк 24/7</li>
-      <li class="web-banking"><a href="#">Увійти до веб-банкінгу</a></li>
+      <li class="primary-link"><a href="#">Увійти до веб-банкінгу</a></li>
       <li><a href="#">Про Ощад 24/7</a></li>
       <li><a href="#">Мобільні додатки</a></li>
     </ul>
@@ -32,27 +32,87 @@
       <li><a href="#">Переказ коштів</a></li>
     	<li><a href="#">Придбати квитки</a></li>
     	<li><a href="#">Поповнити мобільний</a></li>
+      <li class="primary-link"><a href="#">Відділення та банкомати</a></li>
     </ul>
     <ul class="bottom">
     	<li class="label">контакт-центр</li>
     	<li class="hotline"><a href="#">0 800 000 000</a></li>
     	<li class="online-help"><a href="#">Онлайн помічник</a></li>
     </ul>
-    <div class="online-help"></div>
   </nav>
   <div class="site-container">
     <div class="top-bar">
       <div class="container">
-        <nav id="top-navigation" class="top-navigation" role="navigation">
-        	<span class="placeholder">Особистий</span>
-        	<ul class="top-menu">
+        <nav class="top-navigation" role="navigation">
+          <ul class="top-menu">
             <li class="current-menu-item"><a href="#">Особистий</a></li>
             <li><a href="#">Малий та середній бізнес</a></li>
             <li><a href="#">Корпоративний</a></li>
           </ul>
         </nav>
+        <div class="top-action-container">
+          <div class="font-switcher">
+            <ul class="list-unstyled clearfix">
+              <li><a class="smaller-trigger" href="#">a<sup>-</sup></a></li>
+              <li><a class="bigger-trigger" href="#">a<sup>+</sup></a></li>
+            </ul>
+          </div>
+          <div class="lang-switcher">
+            <span class="placeholder">Українська</span>
+            <ul class="list-unstyled">
+              <li class="current-lang">
+                <a href="#">Українська</a>
+              </li>
+              <li>
+                <a href="#">English</a>
+              </li>
+            </ul>
+          </div>
+					<div class="mobile-menu-btn">
+            <a class="dropdown-trigger" href="#">Меню<span></span></a>
+          </div>
+        </div>
       </div>
     </div>
+
+    <header class="site-header">
+    	<div class="container">
+        <div class="site-logo">
+          <a href="#">
+            <img src="img/site-logo.png" alt="ОщадБанк">
+          </a>
+        </div>
+        <div class="dropdown-wrapper">
+          <nav class="site-navigation inline-nav" role="navigation">
+            <a href="#" class="nav-close">Close</a>
+            <ul class="main-menu inline-nav-content">
+              <li>
+                <a href="#">Депозити</a>
+              </li>
+              <li>
+                <a href="#">Кредити</a>
+              </li>
+              <li>
+                <a href="#">Картки та рахунки</a>
+              </li>
+              <li>
+                <a href="#">Платежi</a>
+              </li>
+              <li>
+                <a href="#">Перекази</a>
+              </li>
+              <li>
+                <a href="#">Інші розділи</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="site-content">
+
+    </main>
   </div>
 </body>
 </html>
